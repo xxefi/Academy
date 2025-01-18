@@ -1,0 +1,68 @@
+# .gitignore for Visual Studio and ASP.NET projects
+
+# Ignore the build output directories
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer files
+Thumbs.db
+Desktop.ini
+
+# JetBrains Rider/IntelliJ IDEA
+.idea/
+
+# VS Code settings
+.vscode/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# NUGET
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# ASP.NET Core environment files
+appsettings.Development.json
+appsettings.Local.json
+appsettings.Test.json
+appsettings.Production.json
+
+# User secrets (local development only)
+secrets/
+
+# Logs
+*.log
+
+# .NET Core SDK and runtime
+*.dotnet/
+
+# Build output
+bin/
+obj/
+
+# Publish output
+publish/
+
+# ASP.NET Core settings
+appsettings.json

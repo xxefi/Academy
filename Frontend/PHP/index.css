@@ -1,0 +1,95 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f6f9;
+}
+header {
+  background-color: #0062cc;
+  color: white;
+  padding: 30px 0;
+}
+header h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+.navbar {
+  background-color: #343a40;
+}
+.navbar-nav .nav-link {
+  color: white !important;
+  font-weight: 600;
+}
+.navbar-nav .nav-link:hover {
+  color: #ffcc00 !important;
+}
+.container {
+  margin-top: 30px;
+}
+.section-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #343a40;
+  margin-top: 22px;
+}
+.btn-custom {
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: background-color 0.3s;
+}
+.btn-custom:hover {
+  background-color: #ffcc00;
+  color: white;
+}
+.form-control {
+  border-radius: 25px;
+  padding: 15px;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+.modal-content {
+  border-radius: 10px;
+}
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 15px 0;
+  font-size: 14px;
+}
+.toast-container {
+  z-index: 9999;
+}
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+th {
+  background-color: #007bff;
+  color: black;
+}
+td {
+  background-color: #f9f9f9;
+}
+tr:hover {
+  background-color: #f1f1f1;
+}
+.btn {
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: #0056b3;
+}
+.btn-danger:hover {
+  background-color: #c82333;
+}
+.btn-primary:hover {
+  background-color: #0056b3;
+}
